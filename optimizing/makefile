@@ -12,4 +12,4 @@ all: $(ASM)
 	$(CC) $(CFLAGS) -S $< -o $@
 
 clean:
-	rm *.s *.o
+	rm *.$(ARCH).s
