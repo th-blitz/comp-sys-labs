@@ -4,7 +4,7 @@ CFLAGS = -Wall -Og
 ARCH := $(shell uname -m)
 
 SRC := $(wildcard *.c)
-ASM := $(SRCS:.c=.$(ARCH).s)
+ASM := $(SRC:.c=.$(ARCH).s)
 
 all: $(ASM)
 
