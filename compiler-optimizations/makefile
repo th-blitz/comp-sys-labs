@@ -7,7 +7,10 @@ SRC := $(wildcard *.c)
 ASM := $(SRC:.c=.$(ARCH).s)
 OBJ := $(SRC:.c=.$(ARCH).o)
 
-all: compile $(ASM) 
+all: compile run $(ASM) 
+
+run: compile
+	./main.out >> main.$(ARCH).output
 
 compile: $(OBJ)
 	$(CC) -o main.out $(OBJ)

@@ -8,12 +8,11 @@ combine3:
 	movl	$0, %eax
 	jmp	.L2
 .L3:
-	movslq	%eax, %rcx
-	movl	(%rdi,%rcx,4), %ecx
-	addl	%ecx, (%rdx)
-	addl	$1, %eax
+	movslq	(%rdi,%rax,4), %rcx
+	addq	%rcx, (%rdx)
+	addq	$1, %rax
 .L2:
-	cmpl	%esi, %eax
+	cmpq	%rsi, %rax
 	jl	.L3
 	ret
 	.cfi_endproc
@@ -24,17 +23,17 @@ combine3:
 combine4:
 .LFB1:
 	.cfi_startproc
-	movl	(%rdx), %ecx
+	movq	(%rdx), %rcx
 	movl	$0, %eax
 	jmp	.L5
 .L6:
-	movslq	%eax, %r8
-	addl	(%rdi,%r8,4), %ecx
-	addl	$1, %eax
+	movslq	(%rdi,%rax,4), %r8
+	addq	%r8, %rcx
+	addq	$1, %rax
 .L5:
-	cmpl	%esi, %eax
+	cmpq	%rsi, %rax
 	jl	.L6
-	movl	%ecx, (%rdx)
+	movq	%rcx, (%rdx)
 	ret
 	.cfi_endproc
 .LFE1:
@@ -44,27 +43,28 @@ combine4:
 combine5:
 .LFB2:
 	.cfi_startproc
-	movl	(%rdx), %ecx
-	leal	-1(%rsi), %r9d
+	movq	(%rdx), %rcx
+	leaq	-1(%rsi), %r10
 	movl	$0, %eax
 	jmp	.L8
 .L9:
-	movslq	%eax, %r8
-	addl	(%rdi,%r8,4), %ecx
-	addl	4(%rdi,%r8,4), %ecx
-	addl	$2, %eax
+	movslq	(%rdi,%rax,4), %r8
+	movslq	4(%rdi,%rax,4), %r9
+	addq	%r9, %rcx
+	addq	%r8, %rcx
+	addq	$2, %rax
 .L8:
-	cmpl	%r9d, %eax
+	cmpq	%r10, %rax
 	jl	.L9
 .L10:
-	cmpl	%esi, %eax
+	cmpq	%rsi, %rax
 	jl	.L11
-	movl	%ecx, (%rdx)
+	movq	%rcx, (%rdx)
 	ret
 .L11:
-	movslq	%eax, %r8
-	addl	(%rdi,%r8,4), %ecx
-	addl	$1, %eax
+	movslq	(%rdi,%rax,4), %r8
+	addq	%r8, %rcx
+	addq	$1, %rax
 	jmp	.L10
 	.cfi_endproc
 .LFE2:
@@ -74,29 +74,30 @@ combine5:
 combine6:
 .LFB3:
 	.cfi_startproc
-	movl	(%rdx), %r8d
-	leal	-1(%rsi), %r10d
-	movl	%r8d, %r9d
+	movq	(%rdx), %rcx
+	leaq	-1(%rsi), %r10
+	movq	%rcx, %r8
 	movl	$0, %eax
 	jmp	.L13
 .L14:
-	movslq	%eax, %rcx
-	addl	(%rdi,%rcx,4), %r8d
-	addl	4(%rdi,%rcx,4), %r9d
-	addl	$2, %eax
+	movslq	(%rdi,%rax,4), %r9
+	addq	%r9, %rcx
+	movslq	4(%rdi,%rax,4), %r9
+	addq	%r9, %r8
+	addq	$2, %rax
 .L13:
-	cmpl	%r10d, %eax
+	cmpq	%r10, %rax
 	jl	.L14
 .L15:
-	cmpl	%esi, %eax
+	cmpq	%rsi, %rax
 	jl	.L16
-	leal	-1(%r8,%r9), %eax
-	movl	%eax, (%rdx)
+	leaq	-1(%rcx,%r8), %rax
+	movq	%rax, (%rdx)
 	ret
 .L16:
-	movslq	%eax, %rcx
-	addl	(%rdi,%rcx,4), %r8d
-	addl	$1, %eax
+	movslq	(%rdi,%rax,4), %r9
+	addq	%r9, %rcx
+	addq	$1, %rax
 	jmp	.L15
 	.cfi_endproc
 .LFE3:
@@ -106,28 +107,28 @@ combine6:
 combine7:
 .LFB4:
 	.cfi_startproc
-	movl	(%rdx), %r9d
-	leal	-1(%rsi), %r10d
-	movl	$0, %eax
+	movq	(%rdx), %r8
+	leaq	-1(%rsi), %r9
+	movl	$0, %ecx
 	jmp	.L18
 .L19:
-	movslq	%eax, %r8
-	movl	(%rdi,%r8,4), %ecx
-	addl	4(%rdi,%r8,4), %ecx
-	addl	%ecx, %r9d
-	addl	$2, %eax
+	movl	(%rdi,%rcx,4), %eax
+	addl	4(%rdi,%rcx,4), %eax
+	cltq
+	addq	%rax, %r8
+	addq	$2, %rcx
 .L18:
-	cmpl	%r10d, %eax
+	cmpq	%r9, %rcx
 	jl	.L19
 .L20:
-	cmpl	%esi, %eax
+	cmpq	%rsi, %rcx
 	jl	.L21
-	movl	%r9d, (%rdx)
+	movq	%r8, (%rdx)
 	ret
 .L21:
-	movslq	%eax, %rcx
-	addl	(%rdi,%rcx,4), %r9d
-	addl	$1, %eax
+	movslq	(%rdi,%rcx,4), %rax
+	addq	%rax, %r8
+	addq	$1, %rcx
 	jmp	.L20
 	.cfi_endproc
 .LFE4:
