@@ -1,31 +1,31 @@
 
 
-void combine3(int data[], int data_len, int* dest) {
+void combine3(int data[], long data_len, long* dest) {
 
-    for (int i = 0; i < data_len; i++) {
+    for (long i = 0; i < data_len; i++) {
         *dest = *dest + data[i];
     }
 }
 
 
-void combine4(int* data, int data_len, int* dest) {
+void combine4(int* data, long data_len, long* dest) {
 
-    int result = *dest;
-    for (int i = 0; i < data_len; i++) {
+    long result = *dest;
+    for (long i = 0; i < data_len; i++) {
         result = result + data[i];
     }
     *dest = result;
 }
 
 /* 2 x 1 loop unrolling OR k x 1 */
-void combine5(int* data, int data_len, int* dest) {
+void combine5(int* data, long data_len, long* dest) {
 
-    int result = *dest;
-    int i;
-    int limit = data_len-1;
+    long result = *dest;
+    long i;
+    long limit = data_len-1;
 
     for (i = 0; i < limit; i+=2) {
-        result = data[i+1] + (result + data[i]);
+        result = data[i] + (result + data[i+1]);
     }
 
     for (; i < data_len; i++) {
@@ -36,12 +36,12 @@ void combine5(int* data, int data_len, int* dest) {
 }
 
 /* 2 x 2 loop unrolling; k x k loop unrolling */
-void combine6(int* data, int data_len, int* dest) {
+void combine6(int* data, long data_len, long* dest) {
 
-    int result0 = *dest;
-    int result1 = *dest;
-    int i;
-    int limit = data_len-1;
+    long result0 = *dest;
+    long result1 = *dest;
+    long i;
+    long limit = data_len-1;
     
     for (i = 0; i < limit; i+=2) {
         result0 = result0 + data[i];
@@ -56,11 +56,11 @@ void combine6(int* data, int data_len, int* dest) {
 }
 
 /* 2 x 1a loop unrolling OR k x 1a */
-void combine7(int* data, int data_len, int* dest) {
+void combine7(int* data, long data_len, long* dest) {
 
-    int result = *dest;
-    int i;
-    int limit = data_len-1;
+    long result = *dest;
+    long i;
+    long limit = data_len-1;
 
     for (i = 0; i < limit; i+=2) {
         result = result + (data[i+1] + data[i]);
