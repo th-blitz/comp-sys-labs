@@ -78,3 +78,72 @@ CPE (cycles/element): 0.000491
 combine7:result of dest: 5000000050000001
 number of clock cycles took: 51025.000000
 CPE (cycles/element): 0.000510
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 231608.000000
+Total CPU cycles: 500000094
+Cycles per element: 5.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 62960.000000
+CPE (cycles/element): 0.000630
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 50394.000000
+CPE (cycles/element): 0.000504
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 49878.000000
+CPE (cycles/element): 0.000499
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 41407.000000
+CPE (cycles/element): 0.000414
+Total CPU cycles: 225000067
+Cycles per element: 2.25
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 230881.000000
+Total CPU cycles: 500000093
+Cycles per element: 5.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 62899.000000
+CPE (cycles/element): 0.000629
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 50533.000000
+CPE (cycles/element): 0.000505
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 49840.000000
+CPE (cycles/element): 0.000498
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 41619.000000
+CPE (cycles/element): 0.000416
+Total CPU cycles: 225000069
+Cycles per element: 2.25
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 231684.000000
+Total CPU cycles: 500000094
+Cycles per element: 5.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 62878.000000
+CPE (cycles/element): 0.000629
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 50426.000000
+CPE (cycles/element): 0.000504
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 49848.000000
+CPE (cycles/element): 0.000498
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 41680.000000
+CPE (cycles/element): 0.000417
+Total CPU cycles: 225000066
+Cycles per element: 2.25
