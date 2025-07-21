@@ -60,10 +60,10 @@ void combine7(int* data, long data_len, long* dest) {
 
     long result = *dest;
     long i;
-    long limit = data_len-1;
+    long limit = data_len-4;
 
-    for (i = 0; i < limit; i+=2) {
-        result = result + (data[i+1] + data[i]);
+    for (i = 0; i < limit; i+=4) {
+        result = result + (data[i+3] + data[i+2] + data[i+1] + data[i]);
     }
 
     for (; i < data_len; i++) {

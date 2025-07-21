@@ -58,3 +58,338 @@ CPE (cycles/element): 0.000972
 combine7:result of dest: 5000000050000001
 number of clock cycles took: 96180.000000
 CPE (cycles/element): 0.000962
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394124.000000
+Instruction retired: 700000027
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 116005.000000
+CPE (cycles/element): 0.001160
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97059.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97135.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96211.000000
+CPE (cycles/element): 0.000962
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 395707.000000
+Instruction retired: 700000027
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115947.000000
+CPE (cycles/element): 0.001159
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97146.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97124.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96599.000000
+CPE (cycles/element): 0.000966
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394525.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115944.000000
+CPE (cycles/element): 0.001159
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97099.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97128.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96187.000000
+CPE (cycles/element): 0.000962
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394491.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115970.000000
+CPE (cycles/element): 0.001160
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97009.000000
+CPE (cycles/element): 0.000970
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97214.000000
+CPE (cycles/element): 0.000972
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96345.000000
+CPE (cycles/element): 0.000963
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 395815.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115844.000000
+CPE (cycles/element): 0.001158
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97082.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97170.000000
+CPE (cycles/element): 0.000972
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96337.000000
+CPE (cycles/element): 0.000963
+Total CPU cycles: 400000029
+Cycles per element: 4.00
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394473.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115956.000000
+CPE (cycles/element): 0.001160
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97102.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97147.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96268.000000
+CPE (cycles/element): 0.000963
+Total CPU cycles: 400000029
+Cycles per element: 4.00
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394818.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115857.000000
+CPE (cycles/element): 0.001159
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97173.000000
+CPE (cycles/element): 0.000972
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97132.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96219.000000
+CPE (cycles/element): 0.000962
+Total CPU cycles: 400000029
+Cycles per element: 4.00
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394526.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115831.000000
+CPE (cycles/element): 0.001158
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97231.000000
+CPE (cycles/element): 0.000972
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97253.000000
+CPE (cycles/element): 0.000973
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96209.000000
+CPE (cycles/element): 0.000962
+Total CPU cycles: 350000030
+Cycles per element: 3.50
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 405502.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 162066.000000
+CPE (cycles/element): 0.001621
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97080.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97168.000000
+CPE (cycles/element): 0.000972
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96215.000000
+CPE (cycles/element): 0.000962
+Total CPU cycles: 340000029
+Cycles per element: 3.40
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394865.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115876.000000
+CPE (cycles/element): 0.001159
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97055.000000
+CPE (cycles/element): 0.000971
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97140.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96161.000000
+CPE (cycles/element): 0.000962
+Total CPU cycles: 340000029
+Cycles per element: 3.40
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 394328.000000
+Total CPU cycles: 600000027
+Cycles per element: 6.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115729.000000
+CPE (cycles/element): 0.001157
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 97022.000000
+CPE (cycles/element): 0.000970
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97099.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96130.000000
+CPE (cycles/element): 0.000961
+Total CPU cycles: 260000029
+Cycles per element: 2.60
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 115864.000000
+Total CPU cycles: 400000027
+Cycles per element: 4.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115536.000000
+CPE (cycles/element): 0.001155
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 96210.000000
+CPE (cycles/element): 0.000962
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97017.000000
+CPE (cycles/element): 0.000970
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96234.000000
+CPE (cycles/element): 0.000962
+Total CPU cycles: 220000031
+Cycles per element: 2.20
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 115841.000000
+Total CPU cycles: 400000027
+Cycles per element: 4.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 115617.000000
+CPE (cycles/element): 0.001156
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 96111.000000
+CPE (cycles/element): 0.000961
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 97082.000000
+CPE (cycles/element): 0.000971
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 96145.000000
+CPE (cycles/element): 0.000961
+Total CPU cycles: 225000046
+Cycles per element: 2.25
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 113876.000000
+Total CPU cycles: 400000027
+Cycles per element: 4.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 113540.000000
+CPE (cycles/element): 0.001135
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 94513.000000
+CPE (cycles/element): 0.000945
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 95317.000000
+CPE (cycles/element): 0.000953
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 94354.000000
+CPE (cycles/element): 0.000944
+Total CPU cycles: 225000046
+Cycles per element: 2.25
+
+combine3:result of dest: 5000000050000001
+number of clock cycles took: 428597.000000
+Total CPU cycles: 700000027
+Cycles per element: 7.00
+
+combine4:result of dest: 5000000050000001
+number of clock cycles took: 113959.000000
+CPE (cycles/element): 0.001140
+
+combine5:result of dest: 5000000050000001
+number of clock cycles took: 95408.000000
+CPE (cycles/element): 0.000954
+
+combine6:result of dest: 5000000050000001
+number of clock cycles took: 95385.000000
+CPE (cycles/element): 0.000954
+
+combine7:result of dest: 5000000050000001
+number of clock cycles took: 94569.000000
+CPE (cycles/element): 0.000946
+Total CPU cycles: 350000039
+Cycles per element: 3.50

@@ -1,6 +1,6 @@
 # A makefile to generate assembly code from C source code.
 CC = gcc
-CFLAGS = -Wall -Og
+CFLAGS = -Wall -g -Og
 ARCH := $(shell uname -m)
 
 SRC := $(wildcard *.c)
